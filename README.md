@@ -42,4 +42,13 @@ For guidance on implementing **LSTM** with TensorFlow and Keras, we referred to 
 
 The dataset used in this project is obtained from the Kaggle website, specifically the New York Stock Exchange dataset. You can find the dataset here: [NYSE Stock Data on Kaggle](https://www.kaggle.com/dgawlik/nyse).
 
-Feel free to customize this README to include more details or links related to your project. This revised README provides a clear and organized overview of your stock price prediction project.
+## Results
+
+The given model tries to draw a comparison between two of the models. We tried to compare the results obtained in both of the methods implemented. LSTM's implementation is more complex, as compared to that of ARIMA. The key differences observed are:
+
+1. For a relatively simple stock price dataset with clear trends, seasonality, and stationary properties, and a more interpretable model, ARIMA might be a suitable choice.
+
+2. If the stock price data is complex, exhibits non-linear behavior, or we want to capture long-term dependencies and intricate patterns, LSTM or other deep learning approaches may be more effective.
+
+3. For a smaller dataset ARIMA seems to outperform LSTM significantly with a smaller Standard deviation. As we increase the size of the dataset, we see a significant change in the performance of LSTM. The low volatility of the ARIMA 
+  shows that it is impractical to be used for the practical purposes
