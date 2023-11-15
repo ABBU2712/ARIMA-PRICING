@@ -52,3 +52,6 @@ The given model tries to draw a comparison between two of the models. We tried t
 
 3. For a smaller dataset ARIMA seems to outperform LSTM significantly with a smaller Standard deviation. As we increase the size of the dataset, we see a significant change in the performance of LSTM. The low volatility of the ARIMA 
   shows that it is impractical to be used for the practical purposes
+
+![Alt Text](arima.png)
+
